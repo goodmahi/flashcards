@@ -1,6 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-image: url('appbackground.png');
+    background-image: url('../../appbackground.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
