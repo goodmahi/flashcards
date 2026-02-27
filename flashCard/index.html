@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ohio Real Estate Flash Cards</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-image: url('appbackground.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            padding: 20px;
+        }
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 40px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+        .sets {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .set-button {
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            border-radius: 15px;
+            padding: 20px;
+            font-size: 1.5rem;
+            color: white;
+            text-decoration: none;
+            display: block;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+        .set-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ohio Real Estate Flash Cards</h1>
+        <div class="sets">
+            <a href="viewer/viewer.html?set=1" class="set-button">1. Licensing & Education</a>
+            <a href="viewer/viewer.html?set=2" class="set-button">2. Agency & Brokerage Law</a>
+            <a href="viewer/viewer.html?set=3" class="set-button">3. Trust Accounts & Handling Funds</a>
+            <a href="viewer/viewer.html?set=4" class="set-button">4. Advertising Rules</a>
+            <a href="viewer/viewer.html?set=5" class="set-button">5. Disciplinary Authority</a>
+            <a href="viewer/viewer.html?set=6" class="set-button">6. Ohio-Specific Property Law</a>
+            <a href="viewer/viewer.html?set=7" class="set-button">7. High Impact Rules</a>
+            <a href="viewer/viewer.html?set=8" class="set-button">8. High Impact Vocabulary</a>
+            <a href="viewer/viewer.html?set=9" class="set-button">9. Timeline and Numbers</a>
+        </div>
+    </div>
+</body>
+</html>
